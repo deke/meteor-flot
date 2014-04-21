@@ -5,9 +5,9 @@ Package.describe({
 Package.on_use(function (api) {
     api.use('jquery', 'client');
     api.add_files([
-      './lib/jquery.flot.min.js',
-      './lib/jquery.flot.time.min.js',
-      './lib/jquery.flot.direction.min.js'], 'client');
+      './lib/jquery.flot.js',
+      './lib/jquery.flot.time.js',
+      './lib/jquery.flot.direction.js'], 'client');
 });
 
 Package.on_test(function (api) {
